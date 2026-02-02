@@ -1,10 +1,19 @@
 # Q1 26 Structured Pre-Builder
 
-## Mint and Trade SPL Tokens
+## 3.1 NFTs (Mint and Swap)
 
-### Token mint - H8mTaiyo89EHqvQia96KcKMA9fTYqovtk75oe7tttGis
+### NFT mint - J1uZtrH2Rtp9BhGp5urWvHHsUmnAoVq52DhvGxYBDyNP
 
-Minting tx: 4eL6L8UcEGNkPn3DbnSXvvBz1Ap9BerFNahsdDCxCu13JDmx9hazzmfSwem9esSjb1dWY4h2u7QpVdgLUVwbcRDK
+[Minting tx](https://explorer.solana.com/tx/hU5Nyrdz6QmiJiPCrjRvbHgDKid54gXTaTQDvArMuZDVtuXTzDTTUYKcTEcTRxTwyV7ZEkY2UyWYGE3aFZ9ReW2?cluster=devnet)
 
-![Token Pim](./ts/cluster1/assets/token_mint_pim.png)
+![Token Pim](./ts/cluster1/assets/nft_mint.png)
 
+### Reflections
+
+**Problem** 
+
+Trade NFTs in Discord requires to be pending about a reply also if a NFT is popular I could get lost with tons of messages, is not really convenient, also I need to trust the other user (buyer) to send me the SOL I want
+
+**Solution**
+
+A platform can be built to post NFTs and let users to bet on it so I can set the min SOL I want in order to sell my NFT, this proccess is automatized 

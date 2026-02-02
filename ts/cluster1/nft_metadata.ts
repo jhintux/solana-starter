@@ -21,15 +21,15 @@ umi.use(signerIdentity(signer));
     // Follow this JSON structure
     // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
-    // const image = ???
+    const image = "https://gateway.irys.xyz/9HoNdbHNt1i8MK53ktDFFuLpGPEZwNYELmnEXUEU4K4p";
     const metadata = {
-      name: "Pim",
-      symbol: "PIM",
-      description: "Pim from Smiling Friends",
-      image: "https://media.tenor.com/wGEGbp5YAg8AAAAe/smiling-friends-pim.png",
-      //     attributes: [
-      //         {trait_type: '?', value: '?'}
-      //     ],
+      name: "Jack",
+      description: "Captain Jack",
+      image,
+      attributes: [
+        { trait_type: "Hat", value: "Black" },
+        { trait_type: "Jacket", value: "Blue" },
+      ],
       //     properties: {
       //         files: [
       //             {
